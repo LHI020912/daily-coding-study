@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS:float/clear 속성</title>
+<style>
+	#menu{list-style:none; padding:0;}/*목록 태그이므로 왼쪽 들여쓰기 탑재 방지로 padding */
+	#menu li {float:right;}
+	/* 띄어쓰기로 한번에 호출
+	#p1 {clear:left;}*/
+	#p1 {clear:both;}
+	
+	#menu2 {list-style:none; padding:0;}
+	#menu2 li {float:left;}
+	#menu2::after {
+		display:block;
+		content:" ";
+		clear:both;
+	}
+	#menu3 {
+		list-style:none;
+		padding: 0;
+		height:20px; /* float 설정되어 있는 요소의 상위 요소에 대해 높이 명시적 설정하면 float 설정 되지 않은 하위 요소들까지 float 영역이 확장을 방지한다.*/
+		background:#777;
+	}
+	#menu3 li {float:left;} /* 얘가 갑자기 스타일다 먹금시킴; */
+</style>
+</head>
+<body>
+<div>
+	<ul id="menu">
+		<li>메뉴1</li>
+		<li>메뉴2</li>
+		<li>메뉴3</li>
+	</ul>
+	<p id="p1">메뉴 아래에 위치하는 내용</p>
+</div>
+<hr>
+<div>
+	<ul id="menu2">
+		<li>메뉴1</li>
+		<li>메뉴2</li>
+		<li>메뉴3</li>
+	</ul>
+	<p id="p2">메뉴 아래에 위치하는 내용</p>
+</div>
+<hr>
+<div>
+	<ul id="menu3">
+		<li>메뉴1</li>
+		<li>메뉴2</li>
+		<li>메뉴3</li>
+	</ul>
+	<p id="p3">메뉴 아래에 위치하는 내용</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>☆⋆｡𖦹°‧★</title>
+	<script type="text/javascript">
+// 			  _ooOoo_
+//  		 o8888888o
+// 		     88" . "88
+// 		     (| -_- |)
+// 		     O\  =  /O
+//	   	  ____/`---'\____
+//	    . '  \\|     |//  `.
+//      /  \\|||  :  |||//  \
+//	   /  _||||| -:- |||||-  \
+//     |   | \\\  -  /// |   |
+//	   | \_|  ''\---/''  |   |
+//	   \  .-\__  `-`  ___/-. /
+//    ___`. .'  /--.--\  `. . __
+//  ."" '<  `.___\_<|>_/___.'  >'"".
+//| | :  `- \`.;`\ _ /`;.`/ - ` : | |
+//\  \ `-.   \_ __\ /__ _/   .-` /  /
+//======`-.____`-.___\_____/___.-`____.-'======
+//   `=---='
+//
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//佛祖保佑           永无BUG
+//God Bless        Never Crash
+	
+	
+	</script>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 onclick="window.location.reload()">⋆⭒ FOCUS JAVASCRIPT.⋆</h1>
+			<nav>
+				<audio id="player" loop src="image/musicJ.mp3"></audio>
+				<div>
+				    <button class="play" onclick="document.getElementById('player').play()">Play</button>
+				    <button class="play" onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute</button>
+				</div>
+				<button onclick="window.location.href='/HTML01/HelloWorld.html'">Go HTML</button>
+				<button onclick="window.location.href='/CSS01/Main.html'">Go CSS</button>
+			</nav>
+		</header>
+		<section>
+			<span>
+				<a href="01_write.html">1</a>
+				<a href="02_confirminput.html">2</a>
+				<a href="03_promptinput.html">3</a>
+				<a href="07_variables.html">7</a>
+				<a href="08_variable_global.html">8</a>
+				<a href="09_variable_local.html">9</a>
+				<a href="10_var_let_scope.html">10</a>
+				<a href="30_array_copy.html">30</a>
+				<a href="50_string_substring.html">50</a>
+			</span>
+			<span>
+				<a href="11_let_const.html">11</a>
+				<a href="12_variable_hoisting.html">12</a>
+				<a href="13_dataType.html">13</a>
+				<a href="14_ifEx1.html">14</a>
+				<a href="15_ifEx2.html">15</a>
+				<a href="17_switch.html">17</a>
+				<a href="18_typeConversion.html">18</a>
+				<a href="19_for.html">19</a>
+				<a href="20_for2.html">20</a>
+				<a href="29_a.html">29</a>
+			</span>
+			<span>
+				<a href="24_forIn.html">24</a>
+				<a href="25_nestedFor.html">25</a>
+				<a href="26_whileEx.html">26</a>
+				<a href="27_doWhile.html">27</a>
+				<a href="28_array.html">28</a>
+				<a href="31_function.html">31</a>
+				<a href="32_function2.html">32</a>
+				<a href="33_function3.html">33</a>
+				<a href="34_functionReturn.html">34</a>
+				<a href="35_functionParam.html">35</a>
+			</span>
+			<span>
+				<a href="40_function_callback_param.html">40</a>
+				<a href="41_function_callbacksyn.html">41</a>
+				<a href="41_1_function_callback_async.html">41-1</a>
+				<a href="45_date.html">43</a>
+				<a href="44_function_default_param.html">44</a>
+				<a href="45_date.html">45</a>
+				<a href="46_array_object.html">46</a>
+				<a href="47_random2.html">47</a>
+				<a href="48_string.html">48</a>
+				<a href="49_string_charAt.html">49</a>
+			</span>
+			<span>
+				<a href="51_string_indexOf.html">51</a>
+				<a href="52_string_split.html">52</a>
+				<a href="53_windowOpen.html">53</a>
+				<a href="54_windowOpen2.html">54</a>
+				<a href="55_setTimeout.html">55</a>
+				<a href="56_setInterval.html">56</a>
+				<a href="57_createElementH3.html">57</a>
+				<a href="58_createElementImg.html">58</a>
+				<a href="59_getElementById1.html">59</a>
+				<a href="60_getElementById2.html">60</a>
+			</span>
+			<span>
+				<a href="61_querySelector.html">61</a>
+				<a href="62_querySelectorAll2.html">62</a>
+				<a href="63_getElementsByTagName.html">63</a>
+				<a href="64_event1.html">64</a>
+				<a href="65_event2.html">65</a>
+				<a href="66_event_multi1.html">66</a>
+				<a href="67_event_multi2.html">67</a>
+				<a href="68_event_mouse.html">68</a>
+				<a href="69_event_addEventListener.html">69</a>
+				<a href="70_event_addEventListener2Arrow.html">70</a>
+			</span>
+			<span>
+				<a href="ex03_forEx1.html">과제</a>
+				<a href="ex05_whileEx2.html">과제</a>
+				<a href="ex06_arrayEx1.html">과제</a>
+				<a href="ex07_functionEx.html">과제</a>
+				<a href="ex08_function_returnEx.html">과제</a>
+				<a href="ex10_function_paramRetEx.html">과제</a>
+				<a href="ex09_function_paramRetEx.html">과제</a>
+				<a href="ex11_randomEx.html">과제</a>
+				<a href="ex12_StringEx.html">과제</a>
+				<a href="ex13_setIntervalEx1.html">과제</a>
+				<a href="jsEx1.html">과제</a>
+			</span>
+		</section>
+		<footer>
+			<pre>
+⠀⠀⠀⡰⡀⠀⠀⣠⡀⠀⠀⠀⡰⡶⠀⠀⠀
+⠀⢀⠎⠀⠈⠉⠉⠁⠱⣄⣀⣀⡅⣇⠀⠀⠀
+⠀⢸⠀⠤⠄⠀.. .⠀ ⡇⠀⠀⠀⠈⣗⡶⠆
+⣠⣊⡱⠤⠤⢤⡤⢤⡾⠕⠒⠊⠉⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠓⠚⠁	</pre>
+			<img src="image/photo.jpg" alt="star">
+		</footer>
+	</div>
+</body>
+</html>

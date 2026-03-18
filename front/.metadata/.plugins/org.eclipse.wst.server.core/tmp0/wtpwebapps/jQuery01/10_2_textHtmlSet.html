@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">	
+			$(function(){
+				$('h1:nth-child(1)').text('<a href="#">text()</a>');//화면에 코드가뜸
+				$('h1:nth-child(2)').html('<a href="#">text()</a>');//화면에 text()만뜸
+			})
+		</script>
+	</head>
+	<body>
+		<h1>Header-0</h1>
+		<h1>Header-0</h1>
+	</body>
+</html>

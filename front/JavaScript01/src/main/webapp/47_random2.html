@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Math.random()</title>       
+        <script type="text/javascript">		
+		//Math 객체는 선언없이 사용하는 static객체
+		//random(): 0.0x~0.9x 범위의 실수값을 무작위로 한개 반환하는 함수
+		for(let i=0;i<=-1;i++)
+			document.write(Math.random(),"<br>");
+		
+		document.write("<hr>");
+		
+		for(let i=0;i<=10;i++){
+			let num = Math.floor(Math.random()*5);//실수형태의 난수를 *5으로 1자리정수로 만들고 소수점이하는 버림(0~4사이의 난수)
+			document.write(num+"<br>");
+		}
+			
+		document.write("<hr>");
+		
+		for(let i=0;i<=10;i++){
+			let num = Math.floor(Math.random()*10);//실수형태의 난수를 *10으로 1자리정수로 만들고 소수점이하는 버림(0~10사이의 난수)
+			document.write(num+"<br>");
+		}
+		
+		//1부터 10사이의 난수
+		for(let i=0;i<=10;i++){
+			let num = Math.floor(Math.random()*10)+1;//실수형태의 난수를 *10으로 1자리정수로 만들고 소수점이하는 버림
+			document.write(num+"<br>");
+		}
+        </script>     
+    </head>
+    
+    <body>
+    </body>
+</html>

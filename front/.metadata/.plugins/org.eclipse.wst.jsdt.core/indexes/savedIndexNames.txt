@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+D:\CampStudy\front\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+543764539.index
+3959901658.index
+2153873383.index
+3387391802.index
+4068244649.index
+2275101610.index
+1519499205.index
+3044317042.index
+1599482478.index
+4207222131.index
+2824180210.index
+1650848555.index
+4240348439.index

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'JejuStoneWall';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+*{margin:0 auto;}
+body{
+	position: relative;
+	padding-top:40px; 
+	font-family:'JejuStoneWall';
+	background:black;
+	}
+#wrap{ 
+	z-index:4;
+	width:55%;
+	height:800px;
+	border-radius:30px;
+	background-image:url('image/7.jpg');
+	box-shadow:inset 8px 8px 5px #808080;
+}
+
+header{
+	padding:35px 0 20px 40px;
+	display:flex; justify-content:space-between;
+	align-itens:center;
+}
+span{color:#808080;}
+section{display:flex;}
+#btn{display:flex; flex-flow:column;}
+a{
+	width:8vw;
+	height:55px;    
+	color:black; 
+	font-size:1.1em;
+	line-height:55px;
+	text-align:center;
+	opacity:0.3;
+	background:white;
+	text-decoration:none;
+	border-radius:20px;
+	margin-top:10%;
+}
+a:hover{
+	opacity:1;
+	font-size:1.5em;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS 선택자를 이용해 원하는 노드 찾기</title>
+        <style type="text/css">        	
+			#menuBox div {
+				float:left;
+				background-color:green;
+				width:100px;	
+				height:50px;		
+			}		
+		</style>	
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript"> 
+			$(document).ready(function(){ 
+				let $menuItem = $('.menuItem');//객체 참조값 반환받아서 제이쿼리 변수에 저장
+				let $indexSpan = $('#indexSpan');
+				//each : jQuery메소드(배열순환)
+				//this : 현재 참조중인 객체 (예약어)
+				$menuItem.each(function(index){
+					//특정 menuItem에 hover이벤트 적용:hover->객체에 마우스가 진입하는 상태/해당 객체에서 마우스가 나오는상태
+					$(this).hover(//each메소드 안에서 사용해서 현재참조가 들어와서 영역에 해당 이벤트 연결
+							()=>{//마우스가 객체로 진입할때의 처리
+								$(this).css('background','yellow')
+								$indexSpan.text(index)},
+							()=>{//마우스가 객체에서 나올때의 처리
+								$(this).css('background','green')
+								$indexSpan.text(index)});
+					//forEach와 비슷
+				});
+			}); //ready() 종료
+		</script>  
+    </head>
+    
+     <body>
+    	<div id="wrap">  
+			<h2>인덱스 : <span id="indexSpan">index</span></h2>
+			<div id="menuBox">
+			   <div class="menuItem"></div>
+			   <div class="menuItem"></div>
+			   <div class="menuItem"></div>
+			   <div class="menuItem"></div>     
+		    </div>
+        </div>
+    </body>
+</html>

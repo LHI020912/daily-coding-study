@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!-- 해당 페이지 내 jsp코드는 java 문법을 따르고 나머지 코드는 html임
+	즉, jsp코드 제외 나머지는 클라이언트에게 태그 그대로 전달 -->
+<% String test; %>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+    </head>
+
+    <body>
+
+    <% 
+		test ="jsp 테스트";
+	%>
+	<%= test
+
+	%>
+    </body>
+
+    </html>

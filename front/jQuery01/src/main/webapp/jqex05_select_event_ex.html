@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			*{margin:0 auto; text-align:center;}
+			table, tr, td {
+				border:solid 2px gray;
+				border-collapse:collapse;
+				}
+			th{color:white;background:#036;}
+			h1{padding:15px;}
+		</style>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">	
+		$(function(){
+		let priec=450000;
+		
+			//태그참조는 document.querySelector 한 개만 할때
+			documnet.querySelector('select').addEventListener('change',calcTotal);
+			//
+			let amount,chkAmount, optAmount =0;
+			function showAmoucn(){
+				price=price+
+				$('#amount').text(price.toLocaleString()+'원');
+			}
+			//slesct 태그 option변경(이벤트 발생) 시 기본옵션 계산 모듈
+			$('#choice').on('change',function(){
+				optAmount = (parseInt(($(this).val())));
+				showAmount;
+			});
+			
+			//checkBOx의 check옵션이 변경되면 선택옵션 계산 후 주문액계산하는 함수
+			$checkBOx.on('click',function(){
+				//여러개의 체크박스 순회하면서 선택옵션 총가격 계산
+				chkAmount = 0;//checkBOx에 크릭 이벤트 이벤트 발생마다 다시 계산
+				//checkBOx마다 체크 홧인 후 셰ㅛㅏㅇ
+				#checkBOx.each(function(index){
+					if($(this).is(':checked'))
+						chkAmount +=parseInt($(this).val());
+				});
+				showAmount();//총 주문액 계산함수
+			})
+
+			
+		});
+		</script>
+	</head>
+	<body>
+		<h1>카메라 주문서</h1>
+		<table>
+			<tr><td colspan=3><img src="image/camera.jpg"></td></tr>
+			<tr><th>기본 가격</th>		<td colspan=2>4,500,000원</td></tr>
+			<tr><th>기본 옵션</th>		<td colspan=2><select id="choice">
+									<option value="0">선택하세요.</option>
+									<option value="100000">삼각대 100,000원</option>
+									<option value="50000">차량용 충전기 50,000원</option>
+									</select></td></tr>
+			<tr><th>선택 옵션</th>  <th>가격</th>	<th>선택</th></tr>
+			<tr><td>렌즈 필터</td><td>30,000원</td>	<td><input type="checkbox" class="item" value="30000"></td></tr>
+			<tr><td>DSLR 가방</td><td>40,000원</td><td><input type="checkbox" class="item" value="40000"></td></tr>
+			<tr><td>청소도구</td><td>7,000원</td><td><input type="checkbox" class="item" value="7000"></td></tr>
+			<tr><th>주문액</th><td id="amount" colspan=2>4,500,000원</td></tr>
+		</table>
+	</body>
+</html>

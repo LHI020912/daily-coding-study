@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>플렉서블 박스-플렉서블 아이템 정렬 추가</title>
+<style>
+	* {margin:0;padding:0;}
+	.container{
+		margin:5px;
+		width:500px;
+		height:300px;
+		border:solid 1px black;
+	}
+	.container div {
+		width:20%;
+		height:10%;
+	}
+	
+	.container div:first-child{background:#F6EAC2;}
+	.container div:nth-child(2){background:pink;}
+	.container div:nth-child(3){background:#E1F0E5;}
+
+	.container {
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		/*교차축에 대한 배치결정*/
+		align-items:center;
+		}
+</style>
+</head>
+<body>
+			<div class="container">
+				<div></div><div></div><div></div>
+			</div>
+			
+			<div class="container">
+				<div></div><div></div><div></div>
+			</div>			
+</body>
+</html>

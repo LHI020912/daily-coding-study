@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			div{
+				height:60px;
+				line-height:60px;
+				padding-left:20px;
+				background:rgb(225, 225, 225);
+				}
+			p{display:none;padding-left:40px;}
+		</style>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			//on
+			$('#menu1').on('click',function(){
+		        $(this).next().slideToggle(500);//형제선택으로 p열기
+				});
+			//click
+			$('#menu2').click(function(){
+				$(this).next().slideToggle(500);
+			});
+			//each 콜백
+			$('#menu3').each(function(){
+				$(this).click(function(){
+					$(this).next().slideToggle(500);
+				});
+			});
+		});
+		</script>
+	</head>
+	<body>
+	<div id='menu1'>Section 1</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat</p>
+	<div id='menu2'>Section 2</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat</p>
+	<div id='menu3'>Section 3</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat</p>
+	</body>
+</html>

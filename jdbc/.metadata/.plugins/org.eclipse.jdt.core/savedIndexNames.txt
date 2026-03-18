@@ -1,0 +1,11 @@
+INDEX VERSION 1.134+D:\CampStudy\javaWork\.metadata\.plugins\org.eclipse.jdt.core
+4034784009.index
+595894593.index
+485350742.index
+3406229456.index
+559670790.index
+3261274263.index
+2903194281.index
+1865797976.index
+146152497.index
+3413270776.index

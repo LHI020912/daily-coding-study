@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">	
+		
+		//1번
+		let answer1 = prompt("아무거나 입력해주세요.");
+		let answer2 = prompt("아무거나 입력해주세요.");
+		
+	    function isNumber(str) {
+	        for (let i = 0; i < str.length; i++) {
+	            if (!(str.charAt(i) >= '0' && str.charAt(i) <= '9')) {
+	                return false;
+	            }
+	        }
+	        return true;
+	    }
+
+	    let result1;
+
+	    if (isNumber(answer1) && isNumber(answer2))
+	        result1 = Number(answer1) + Number(answer2);
+	    else
+	        result1 = answer1 + answer2;
+	    
+
+	    alert("1번 결과: " + result1);
+	    
+	    //2번
+	    let answer3 = prompt("아무거나 입력해주세요.");
+
+	    function findApple(str) {
+	        let idx = str.indexOf("apple");
+
+	        if (idx !== -1)
+	            document.write(`apple이 idx[${idx}]에 있습니다.`);
+	        else
+	            document.write("apple이 존재하지 않습니다.");
+	    }
+
+	    findApple(answer3);
+	    
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

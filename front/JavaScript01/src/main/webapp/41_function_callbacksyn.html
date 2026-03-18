@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">	
+		var callback = function(){
+			console.log('콜백함수 호출됨');
+		}
+		function show(cd){
+			cd();//매개변수로 전달되는 함수 코드 호출
+		}
+		///////////// 함수 블럭 끝 /////////////
+		// 실행 코드 //
+		console.log('콜백함수 호출 전');
+		
+		show(callback); //함수코드 전달(show함수호출)-show함수 종료 후 다음 코드실행
+		
+		console.log('콜백함수 호출 후');//동기화
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

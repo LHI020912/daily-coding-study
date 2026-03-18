@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+		<script type="text/javascript">	
+		
+		let arr = new Array(5);
+		
+		function input() { 
+		
+			for (i=0; i<arr.length;i++){
+				arr[i] = Number(prompt(`숫자 입력해주세요. ${i+1}번째`));
+				
+			}
+	    	document.write("최대값 : " + max(arr));
+		}
+		
+		
+		let ma1x = (arr) => {
+			let max_n = arr[0]; 
+
+			for (i = 1; i < arr.length; i++) {
+			    if (arr[i] > max_n) {
+			    	max_n = arr[i];
+			    }
+			}
+			return max_n;
+		};
+		
+		let max = (arr) => {
+			  let max_n = arr[0];
+
+			  arr.forEach((a) => {
+			    if (a > max_n) {
+			      max_n = a;
+			    }
+			  });
+
+			  return max_n;
+			};
+		</script>
+</head>
+<body>
+	<button onClick="input()">최대값 구하기</button>
+</body>
+</html>

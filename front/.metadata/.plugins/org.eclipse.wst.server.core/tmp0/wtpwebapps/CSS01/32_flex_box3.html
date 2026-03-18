@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>플렉서블 박스-플렉서블 아이템 추가-방향(column)</title>
+<style>
+	* {margin:0;padding:0;}
+	.container{
+		margin:5px;
+		width:500px;
+		height:300px;
+		border:solid 1px black;
+	}
+	.container div {
+		height:10%;
+	}
+	
+	.container div:first-child{background:#F6EAC2;}
+	.container div:nth-child(2){background:pink;}
+	.container div:nth-child(3){background:#E1F0E5;}
+	 
+	.container {
+		display:flex;
+		flex-direction:column-reverse;
+		/*justify-content:space-evenly; 아이템 배치 후 생성되는 여백이 모두 동일(시작점여백, 끝점여백)*/
+		justify-content:flex-start;
+	}
+
+	
+</style>
+</head>
+<body>
+			<div class="container">
+				<div></div><div></div><div></div>
+			</div>
+			
+			<div class="container">
+				<div></div><div></div><div></div>
+			</div>			
+</body>
+</html>

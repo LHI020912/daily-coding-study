@@ -1,0 +1,380 @@
+
+1월 05, 2026 09:12:19.76 NEW SESSION
+1월 05, 2026 09:12:19.89 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 05, 2026 09:12:22.42 [6352:13432:0105/091222.429:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 05, 2026 09:12:50.07 [6352:13432:0105/091250.071:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 05, 2026 09:13:48.58 [6352:13432:0105/091348.582:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 05, 2026 09:15:30.37 [6352:13432:0105/091530.373:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 05, 2026 09:18:52.16 [6352:13432:0105/091852.164:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 05, 2026 11:55:35.67 [6352:13432:0105/115535.676:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 05, 2026 12:48:06.98 [6352:13432:0105/124806.980:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 05, 2026 13:25:22.26 [6352:14524:0105/132522.261:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 05, 2026 16:10:43.56 [6352:14524:0105/161043.566:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 05, 2026 17:37:43.39 [6352:13432:0105/173743.372:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 05, 2026 17:38:47.05 [6352:14524:0105/173847.051:ERROR:components\device_event_log\device_event_log_impl.cc:198] [17:38:47.043] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 05, 2026 17:38:47.05 [6352:14524:0105/173847.058:ERROR:components\device_event_log\device_event_log_impl.cc:198] [17:38:47.057] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 05, 2026 17:38:47.06 [6352:14524:0105/173847.061:ERROR:components\device_event_log\device_event_log_impl.cc:198] [17:38:47.062] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 05, 2026 17:40:21.76 [6352:13432:0105/174021.758:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 05, 2026 18:41:22.83 [6352:13432:0105/184122.838:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 05, 2026 18:42:27.47 [6352:13432:0105/184227.470:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 05, 2026 18:42:29.07 [6352:13432:0105/184229.079:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 05, 2026 22:11:35.76 [6352:13432:0105/221135.761:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 05, 2026 22:11:39.79 [6352:13432:0105/221139.792:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 06, 2026 24:11:35.32 [6352:13432:0106/001135.321:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 06, 2026 24:11:38.42 [6352:13432:0106/001138.424:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 06, 2026 08:38:28.05 [6352:13432:0106/083828.057:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 06, 2026 08:38:28.14 [6352:18032:0106/083828.144:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 06, 2026 08:38:31.09 [6352:13432:0106/083831.096:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 06, 2026 08:38:31.09 [6352:15964:0106/083831.097:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 06, 2026 08:38:31.10 [6352:15964:0106/083831.107:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 06, 2026 08:38:34.37 [6352:13432:0106/083834.369:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 06, 2026 08:38:34.37 [6352:10036:0106/083834.374:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 06, 2026 08:38:40.50 [6352:21124:0106/083840.503:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 06, 2026 09:00:15.45 [6352:13432:0106/090015.452:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 06, 2026 09:00:15.45 [6352:12444:0106/090015.454:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 06, 2026 09:19:59.61 [6352:14524:0106/091959.607:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:19:59.601] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 09:19:59.61 [6352:14524:0106/091959.612:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:19:59.611] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 09:19:59.61 [6352:14524:0106/091959.618:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:19:59.618] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 09:56:43.24 [6352:13432:0106/095643.247:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 06, 2026 10:04:32.76 [6352:14524:0106/100432.762:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 06, 2026 10:11:36.14 [6352:13432:0106/101136.149:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 06, 2026 10:12:06.10 [6352:13432:0106/101206.104:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 06, 2026 10:13:02.29 [6352:13432:0106/101302.276:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 06, 2026 10:14:35.57 [6352:13432:0106/101435.579:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 06, 2026 10:21:35.27 [6352:14524:0106/102135.271:ERROR:components\device_event_log\device_event_log_impl.cc:198] [10:21:35.266] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 10:21:35.27 [6352:14524:0106/102135.271:ERROR:components\device_event_log\device_event_log_impl.cc:198] [10:21:35.285] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 10:21:35.29 [6352:14524:0106/102135.290:ERROR:components\device_event_log\device_event_log_impl.cc:198] [10:21:35.290] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 11:39:06.49 [6352:14524:0106/113906.497:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:39:06.486] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 11:39:06.50 [6352:14524:0106/113906.506:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:39:06.506] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 11:58:07.57 [6352:13432:0106/115807.572:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 06, 2026 13:01:28.88 [6352:13432:0106/130128.887:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 06, 2026 13:01:40.43 [6352:14524:0106/130140.430:ERROR:components\device_event_log\device_event_log_impl.cc:198] [13:01:40.416] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 13:01:40.43 [6352:14524:0106/130140.435:ERROR:components\device_event_log\device_event_log_impl.cc:198] [13:01:40.436] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 13:53:06.75 [6352:13432:0106/135306.753:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 06, 2026 14:00:15.29 [6352:13432:0106/140015.295:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 06, 2026 14:56:40.52 [6352:13432:0106/145640.520:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 06, 2026 15:02:45.46 [6352:13432:0106/150245.465:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 06, 2026 15:14:04.34 [6352:14524:0106/151404.343:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:14:04.340] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 15:14:04.34 [6352:14524:0106/151404.347:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:14:04.347] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 16:02:00.02 [6352:14524:0106/160200.018:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 06, 2026 16:14:21.11 [6352:14524:0106/161421.114:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:14:21.099] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 16:14:21.12 [6352:14524:0106/161421.122:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:14:21.122] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 16:52:24.88 [6352:14524:0106/165224.888:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:52:24.867] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 06, 2026 16:52:24.89 [6352:14524:0106/165224.889:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:52:24.890] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 16:52:24.89 [6352:14524:0106/165224.891:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:52:24.891] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 06, 2026 17:53:10.70 [6352:13432:0106/175310.705:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 04:10:17.99 [6352:13432:0107/041017.997:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 07, 2026 04:10:21.37 [6352:13432:0107/041021.371:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 07, 2026 04:11:20.10 [6352:13432:0107/041120.106:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 04:12:21.16 [6352:13432:0107/041221.161:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 04:13:25.81 [6352:13432:0107/041325.811:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 08:47:52.54 [6352:13432:0107/084752.544:ERROR:google_apis\gcm\engine\connection_handler_impl.cc:473] Timed out waiting for GCM Protocol buffer.
+1월 07, 2026 08:47:52.54 [6352:13432:0107/084752.544:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -7
+1월 07, 2026 08:47:52.78 [6352:13644:0107/084752.779:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 07, 2026 08:53:12.39 [6352:13432:0107/085312.397:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 09:11:46.64 [6352:14524:0107/091146.644:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:11:46.627] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 09:11:46.64 [6352:14524:0107/091146.649:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:11:46.647] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 09:11:46.65 [6352:14524:0107/091146.652:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:11:46.652] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 07, 2026 09:56:21.41 [6352:13432:0107/095621.415:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 10:47:14.52 [6352:13432:0107/104714.528:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 10:55:37.97 [6352:13432:0107/105537.971:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 11:01:48.54 [6352:13432:0107/110148.547:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 07, 2026 11:55:45.72 [6352:13432:0107/115545.722:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 13:00:50.65 [6352:13432:0107/130050.655:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 07, 2026 13:00:50.80 [6352:10792:0107/130050.802:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 07, 2026 14:23:22.95 [6352:14524:0107/142322.948:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:23:22.949] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 14:23:23.01 [6352:14524:0107/142323.010:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:23:23.009] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 14:23:23.02 [6352:14524:0107/142323.029:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:23:23.029] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 07, 2026 14:23:34.21 [6352:14524:0107/142334.210:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:23:34.188] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 14:23:34.21 [6352:14524:0107/142334.214:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:23:34.213] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 14:23:34.21 [6352:14524:0107/142334.215:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:23:34.214] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 07, 2026 14:35:45.91 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 07, 2026 14:35:48.46 [17776:5596:0107/143548.462:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 07, 2026 14:36:15.91 [17776:5596:0107/143615.914:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 07, 2026 14:37:11.55 [17776:5596:0107/143711.551:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 07, 2026 14:55:33.19 [17776:5596:0107/145533.192:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 15:03:32.95 [17776:5596:0107/150332.950:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 07, 2026 15:55:58.29 [17776:5596:0107/155558.291:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 16:01:41.19 [17776:5596:0107/160141.195:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 07, 2026 16:10:21.87 [17776:5596:0107/161021.877:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 07, 2026 16:56:28.35 [17776:5596:0107/165628.351:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 17:53:14.84 [17776:5596:0107/175314.846:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 07, 2026 21:39:35.57 [17776:5596:0107/213935.572:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 07, 2026 21:39:36.46 [17776:17444:0107/213936.468:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 07, 2026 21:40:05.67 [17776:9252:0107/214005.664:ERROR:components\device_event_log\device_event_log_impl.cc:198] [21:40:05.635] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 21:40:05.68 [17776:9252:0107/214005.678:ERROR:components\device_event_log\device_event_log_impl.cc:198] [21:40:05.678] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 07, 2026 21:40:09.66 [17776:9252:0107/214009.663:ERROR:components\device_event_log\device_event_log_impl.cc:198] [21:40:09.664] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 21:40:09.77 [17776:9252:0107/214009.774:ERROR:components\device_event_log\device_event_log_impl.cc:198] [21:40:09.775] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 07, 2026 21:40:09.79 [17776:9252:0107/214009.797:ERROR:components\device_event_log\device_event_log_impl.cc:198] [21:40:09.797] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 07, 2026 21:43:23.49 [17776:9252:0107/214323.495:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 08, 2026 09:13:29.18 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 08, 2026 09:13:31.67 [23580:26828:0108/091331.679:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 08, 2026 09:13:32.12 [23580:26828:0108/091332.125:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 08, 2026 09:17:10.22 [23580:3148:0108/091710.222:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:17:10.204] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2026 09:17:10.22 [23580:3148:0108/091710.226:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:17:10.226] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2026 09:17:10.22 [23580:3148:0108/091710.228:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:17:10.228] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 08, 2026 09:58:37.44 [23580:3148:0108/095837.444:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:58:37.431] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2026 09:58:37.45 [23580:3148:0108/095837.457:ERROR:components\device_event_log\device_event_log_impl.cc:198] [09:58:37.448] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 08, 2026 10:57:32.13 [23580:26828:0108/105732.131:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 08, 2026 11:55:35.35 [23580:26828:0108/115535.357:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 08, 2026 13:18:46.67 [23580:26828:0108/131846.670:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 08, 2026 13:56:28.26 [23580:26828:0108/135628.265:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 08, 2026 14:41:42.89 [23580:3148:0108/144142.898:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 08, 2026 15:56:00.74 [23580:26828:0108/155600.740:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 08, 2026 17:45:31.00 [23580:26828:0108/174531.004:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 08, 2026 17:51:46.38 [23580:26828:0108/175146.381:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 03:52:16.62 [23580:26828:0109/035216.622:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -109
+1월 09, 2026 09:13:02.55 [23580:24452:0109/091302.554:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+1월 09, 2026 09:13:09.23 [23580:26828:0109/091309.235:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 09, 2026 09:13:35.94 [23580:26828:0109/091335.946:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 09, 2026 09:14:31.98 [23580:26828:0109/091431.981:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 09, 2026 10:28:29.13 [23580:3148:0109/102829.133:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 09, 2026 10:28:31.59 [23580:3148:0109/102831.590:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 09, 2026 11:28:20.71 [23580:3148:0109/112820.713:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 09, 2026 11:31:53.34 [23580:3148:0109/113153.340:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 09, 2026 11:33:01.58 [23580:26828:0109/113301.589:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 11:34:03.55 [23580:26828:0109/113403.551:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 11:51:17.10 [23580:26828:0109/115117.108:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 12:09:35.74 [23580:26828:0109/120935.739:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 09, 2026 12:17:52.75 [23580:3148:0109/121752.754:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 09, 2026 12:19:26.13 [23580:26828:0109/121926.135:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 12:20:28.87 [23580:26828:0109/122028.873:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 13:12:46.47 [23580:3148:0109/131246.473:ERROR:chrome\browser\ui\views\user_education\impl\browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_LiveCaption before browser initialization complete; IPH will not be shown.
+1월 09, 2026 14:54:16.79 [23580:26828:0109/145416.796:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 15:01:40.64 [23580:26828:0109/150140.646:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -106
+1월 09, 2026 15:56:29.50 [23580:26828:0109/155629.499:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 16:14:32.58 [23580:3148:0109/161432.580:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 09, 2026 16:59:04.32 [23580:26828:0109/165904.320:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 17:02:28.81 [23580:26828:0109/170228.814:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 09, 2026 17:29:22.48 [23580:3148:0109/172922.480:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 09, 2026 17:30:02.07 [23580:3148:0109/173002.074:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 09, 2026 17:31:07.03 [23580:3148:0109/173107.034:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 09, 2026 17:51:40.55 [23580:26828:0109/175140.552:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 09, 2026 18:26:54.27 [23580:26828:0109/182654.275:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 10, 2026 24:42:32.00 [23580:6640:0110/004231.998:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 10, 2026 24:42:33.51 [23580:6640:0110/004233.518:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 10, 2026 24:42:35.78 [23580:6640:0110/004235.782:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 10, 2026 09:24:33.08 [23580:22844:0110/092433.087:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 10, 2026 09:25:05.61 [23580:3148:0110/092505.610:ERROR:components\signin\internal\identity_manager\account_info_fetcher.cc:65] OnGetTokenFailure: Connection failed (-106).
+1월 10, 2026 09:25:06.66 [23580:3148:0110/092506.668:ERROR:components\signin\internal\identity_manager\account_info_fetcher.cc:65] OnGetTokenFailure: Connection failed (-106).
+1월 10, 2026 21:03:24.97 [23580:26828:0110/210324.976:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 10, 2026 21:03:48.55 [23580:26828:0110/210348.556:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 10, 2026 21:04:48.13 [23580:26828:0110/210448.131:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 10, 2026 21:06:33.75 [23580:26828:0110/210633.745:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 10, 2026 21:26:26.06 [23580:3148:0110/212626.062:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 10, 2026 21:35:07.79 [23580:3148:0110/213507.755:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 10, 2026 21:58:56.81 [23580:3148:0110/215856.810:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 21:59:50.21 [23580:3148:0110/215950.219:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:00:47.60 [23580:3148:0110/220047.602:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:02:02.35 [23580:3148:0110/220202.356:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:02:12.24 [23580:3148:0110/220212.247:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:03:17.05 [23580:3148:0110/220317.050:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:08:11.31 [23580:3148:0110/220811.312:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:09:03.33 [23580:3148:0110/220903.333:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:10:44.38 [23580:3148:0110/221044.385:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:11:10.32 [23580:3148:0110/221110.325:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:13:17.26 [23580:3148:0110/221317.265:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:14:19.35 [23580:3148:0110/221419.358:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:16:38.38 [23580:3148:0110/221638.380:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 10, 2026 22:38:38.71 [23580:26828:0110/223838.695:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 10, 2026 22:39:44.66 [23580:26828:0110/223944.660:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 10, 2026 22:40:49.28 [23580:26828:0110/224049.285:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 10, 2026 23:57:25.96 [23580:26828:0110/235725.966:ERROR:google_apis\gcm\engine\connection_handler_impl.cc:473] Timed out waiting for GCM Protocol buffer.
+1월 10, 2026 23:57:25.97 [23580:26828:0110/235725.967:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -7
+1월 11, 2026 24:24:04.18 [23580:3148:0111/002404.185:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 11, 2026 02:03:10.01 [23580:3148:0111/020310.012:ERROR:components\device_event_log\device_event_log_impl.cc:198] [02:03:09.983] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 11, 2026 02:03:10.01 [23580:3148:0111/020310.017:ERROR:components\device_event_log\device_event_log_impl.cc:198] [02:03:10.012] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 11, 2026 02:03:10.01 [23580:3148:0111/020310.019:ERROR:components\device_event_log\device_event_log_impl.cc:198] [02:03:10.015] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 11, 2026 02:54:08.33 [23580:3148:0111/025408.336:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 6 rejected by interface blink.mojom.WidgetHost
+1월 11, 2026 02:54:08.35 [23580:3148:0111/025408.336:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 7 rejected by interface blink.mojom.WidgetHost
+1월 11, 2026 02:57:57.30 [23580:26828:0111/025757.309:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 04:57:16.26 [23580:26828:0111/045716.260:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 11, 2026 04:57:26.01 [23580:26828:0111/045726.016:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 12:48:32.65 [23580:26828:0111/124832.649:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 11, 2026 12:48:38.19 [23580:26828:0111/124838.190:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 11, 2026 12:48:41.31 [23580:26828:0111/124841.312:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 11, 2026 12:48:41.72 [23580:26828:0111/124841.720:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 12:49:08.68 [23580:26828:0111/124908.672:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 11, 2026 13:33:59.77 [23580:26828:0111/133359.739:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 15:46:23.04 [23580:26828:0111/154622.965:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 11, 2026 16:02:51.45 [23580:26828:0111/160251.439:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 16:11:06.99 [23580:26828:0111/161106.972:ERROR:google_apis\gcm\engine\connection_handler_impl.cc:473] Timed out waiting for GCM Protocol buffer.
+1월 11, 2026 16:11:06.99 [23580:26828:0111/161106.972:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -7
+1월 11, 2026 17:34:34.06 [23580:26828:0111/173434.051:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 17:35:39.00 [23580:26828:0111/173539.006:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 17:36:00.66 [23580:26828:0111/173600.664:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 17:42:35.42 [23580:26828:0111/174235.415:ERROR:google_apis\gcm\engine\connection_handler_impl.cc:473] Timed out waiting for GCM Protocol buffer.
+1월 11, 2026 17:42:35.42 [23580:26828:0111/174235.415:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -7
+1월 11, 2026 18:09:19.50 [23580:26828:0111/180919.500:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 18:19:06.47 [23580:26828:0111/181906.471:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 18:20:43.71 [23580:26828:0111/182043.710:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 18:57:33.93 [23580:26828:0111/185733.934:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 19:57:41.75 [23580:26828:0111/195741.758:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 11, 2026 20:04:08.00 [23580:3148:0111/200407.997:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 11, 2026 20:04:19.94 [23580:3148:0111/200419.939:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 11, 2026 20:04:35.50 [23580:3148:0111/200435.501:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+1월 11, 2026 20:11:46.79 [23580:26828:0111/201146.794:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 11, 2026 20:14:25.52 [23580:26828:0111/201425.527:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 11, 2026 20:17:20.13 [23580:3148:0111/201720.133:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 11, 2026 20:46:23.00 [23580:3148:0111/204622.999:ERROR:CONSOLE:1] "console.assert", source: devtools://devtools/bundled/core/sdk/sdk.js (1)
+
+1월 16, 2026 14:58:05.58 NEW SESSION
+1월 16, 2026 14:58:05.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 16, 2026 14:58:08.38 [20328:16076:0116/145808.380:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 16, 2026 15:54:31.62 [20328:16076:0116/155431.621:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 16, 2026 15:55:46.53 [20328:16076:0116/155546.531:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 16, 2026 16:20:44.97 [20328:1724:0116/162044.975:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 16, 2026 16:59:04.03 [20328:16076:0116/165904.037:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 16, 2026 18:02:36.03 [20328:16076:0116/180236.032:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 16, 2026 18:03:41.48 [20328:16076:0116/180341.484:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 16, 2026 20:40:04.21 [20328:16076:0116/204004.217:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 16, 2026 20:40:09.21 [20328:16076:0116/204009.214:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 03:57:30.60 [20328:16076:0117/035730.601:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 17, 2026 03:57:30.63 [20328:12368:0117/035730.635:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 17, 2026 13:36:22.48 [20328:12368:0117/133622.479:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+1월 17, 2026 13:36:23.05 [20328:16076:0117/133623.054:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 17, 2026 13:36:23.26 [20328:12368:0117/133623.267:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 17, 2026 13:36:27.42 [20328:16076:0117/133627.418:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 15:36:22.92 [20328:1724:0117/153622.923:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:36:22.833] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 17, 2026 15:36:22.95 [20328:1724:0117/153622.950:ERROR:components\device_event_log\device_event_log_impl.cc:198] [15:36:22.950] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+1월 17, 2026 15:36:23.08 [20328:16076:0117/153623.081:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 17, 2026 15:36:25.75 [20328:16076:0117/153625.752:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 17, 2026 16:56:55.59 [20328:16076:0117/165655.596:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 17, 2026 16:57:11.23 [20328:16076:0117/165711.234:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 17, 2026 16:57:35.71 [20328:16076:0117/165735.713:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 17, 2026 16:58:28.46 [20328:16076:0117/165828.469:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+1월 17, 2026 17:00:18.92 [20328:16076:0117/170018.923:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+1월 17, 2026 17:09:38.74 [20328:1724:0117/170938.742:ERROR:chrome\browser\ui\views\user_education\impl\browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_LiveCaption before browser initialization complete; IPH will not be shown.
+1월 17, 2026 17:12:44.40 [20328:16076:0117/171244.398:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 17:40:33.20 [20328:1724:0117/174033.201:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 17, 2026 18:18:23.93 [20328:1724:0117/181823.936:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.05 [20328:1724:0117/181824.059:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.16 [20328:1724:0117/181824.165:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.28 [20328:1724:0117/181824.284:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.39 [20328:1724:0117/181824.390:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.54 [20328:1724:0117/181824.548:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.66 [20328:1724:0117/181824.660:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.76 [20328:1724:0117/181824.767:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:24.89 [20328:1724:0117/181824.890:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:25.00 [20328:1724:0117/181825.007:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:25.23 [20328:1724:0117/181825.231:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:25.49 [20328:1724:0117/181825.498:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:25.64 [20328:1724:0117/181825.647:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:25.75 [20328:1724:0117/181825.754:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:25.90 [20328:1724:0117/181825.900:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.10 [20328:1724:0117/181826.100:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.21 [20328:1724:0117/181826.213:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.31 [20328:1724:0117/181826.315:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.43 [20328:1724:0117/181826.436:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.57 [20328:1724:0117/181826.569:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.69 [20328:1724:0117/181826.696:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.80 [20328:1724:0117/181826.801:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:26.90 [20328:1724:0117/181826.902:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.00 [20328:1724:0117/181827.007:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.20 [20328:1724:0117/181827.200:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.32 [20328:1724:0117/181827.328:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.44 [20328:1724:0117/181827.441:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.55 [20328:1724:0117/181827.550:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.67 [20328:1724:0117/181827.675:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.85 [20328:1724:0117/181827.854:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:27.96 [20328:1724:0117/181827.960:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.06 [20328:1724:0117/181828.066:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.18 [20328:1724:0117/181828.182:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.29 [20328:1724:0117/181828.290:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.42 [20328:1724:0117/181828.427:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.52 [20328:1724:0117/181828.523:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.72 [20328:1724:0117/181828.720:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.85 [20328:1724:0117/181828.851:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:28.98 [20328:1724:0117/181828.988:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:29.10 [20328:1724:0117/181829.107:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:29.22 [20328:1724:0117/181829.224:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:29.89 [20328:1724:0117/181829.891:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:18:30.84 [20328:1724:0117/181830.845:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:179] Invalid first_paint 0.356 s for first_image_paint 0.34 s
+1월 17, 2026 18:40:38.81 [20328:1724:0117/184038.805:ERROR:chrome\browser\ui\views\user_education\impl\browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_LiveCaption before browser initialization complete; IPH will not be shown.
+1월 17, 2026 19:30:12.31 [20328:1724:0117/193012.313:ERROR:chrome\browser\ui\views\user_education\impl\browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_LiveCaption before browser initialization complete; IPH will not be shown.
+1월 17, 2026 19:30:34.02 [20328:1724:0117/193034.026:ERROR:chrome\browser\ui\views\user_education\impl\browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_LiveCaption before browser initialization complete; IPH will not be shown.
+1월 17, 2026 19:30:37.35 [20328:1724:0117/193037.352:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 17, 2026 19:39:45.19 [20328:16076:0117/193945.199:ERROR:google_apis\gcm\engine\mcs_client.cc:748] Received close command, resetting connection.
+1월 17, 2026 21:01:34.20 [20328:16076:0117/210134.203:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 21:01:56.44 [20328:16076:0117/210156.440:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -109
+1월 17, 2026 21:02:03.16 [20328:16076:0117/210203.164:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 17, 2026 21:03:05.86 [20328:16076:0117/210305.859:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 21:03:07.35 [20328:16076:0117/210307.354:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 21:04:12.58 [20328:16076:0117/210412.586:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 21:04:13.75 [20328:16076:0117/210413.755:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 21:05:18.05 [20328:16076:0117/210518.053:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 17, 2026 21:25:07.15 [20328:16076:0117/212507.151:ERROR:google_apis\gcm\engine\connection_handler_impl.cc:473] Timed out waiting for GCM Protocol buffer.
+1월 17, 2026 21:25:07.15 [20328:16076:0117/212507.151:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -7
+1월 17, 2026 23:53:37.17 [20328:16076:0117/235337.176:ERROR:google_apis\gcm\engine\mcs_client.cc:748] Received close command, resetting connection.
+1월 18, 2026 24:09:57.96 [20328:1724:0118/000957.966:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+
+1월 19, 2026 09:17:36.01 NEW SESSION
+1월 19, 2026 09:17:36.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 19, 2026 09:17:39.56 [25336:1584:0119/091739.568:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 19, 2026 09:18:02.21 [25336:1584:0119/091802.210:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 19, 2026 09:18:59.14 [25336:1584:0119/091859.145:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 19, 2026 09:20:35.88 [25336:8908:0119/092035.887:ERROR:services\on_device_model\public\cpp\service_client.cc:36] Unexpected on_device_model service disconnect: Error loading backend.
+1월 19, 2026 09:20:41.14 [25336:1584:0119/092041.143:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 19, 2026 09:21:00.08 [25336:8908:0119/092100.080:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 19, 2026 09:24:23.01 [25336:1584:0119/092423.010:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 19, 2026 09:29:52.55 [25336:1584:0119/092952.549:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 19, 2026 09:35:52.22 [25336:1584:0119/093552.224:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 09:45:52.63 [25336:1584:0119/094552.629:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 09:50:11.28 [25336:1584:0119/095011.282:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 10:00:49.56 [25336:1584:0119/100049.568:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 10:07:06.92 [25336:1584:0119/100706.928:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 10:07:17.28 [25336:1584:0119/100717.282:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -109
+1월 19, 2026 10:29:06.90 [25336:1584:0119/102906.901:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 10:37:58.19 [25336:1584:0119/103758.199:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 19, 2026 10:55:47.42 [25336:1584:0119/105547.425:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 11:01:14.40 [25336:1584:0119/110114.402:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 11:08:45.40 [25336:1584:0119/110845.400:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 11:10:09.72 [25336:1584:0119/111009.729:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -106
+1월 19, 2026 11:56:58.52 [25336:1584:0119/115658.520:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 12:30:14.09 [25336:1584:0119/123014.094:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 19, 2026 12:31:20.42 [25336:1584:0119/123120.425:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 12:32:25.33 [25336:1584:0119/123225.336:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 12:33:29.57 [25336:1584:0119/123329.572:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 12:52:56.49 [25336:1584:0119/125256.491:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 19, 2026 15:29:13.41 [25336:8908:0119/152913.417:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 19, 2026 16:23:44.13 [25336:1584:0119/162344.130:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 16:23:44.16 [25336:1584:0119/162344.169:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 16:23:48.22 [25336:1584:0119/162348.224:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 16:23:52.65 [25336:1584:0119/162352.651:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 17:56:35.76 [25336:1584:0119/175635.766:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 17:57:40.20 [25336:1584:0119/175740.200:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 19, 2026 20:30:58.87 [25336:1584:0119/203058.869:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 19, 2026 20:36:06.63 [25336:1584:0119/203606.635:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 20, 2026 04:48:55.58 [25336:1584:0120/044855.581:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 20, 2026 04:48:55.87 [25336:15948:0120/044855.871:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 20, 2026 04:48:59.04 [25336:1584:0120/044859.045:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 20, 2026 04:49:26.14 [25336:1584:0120/044926.138:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+1월 20, 2026 04:50:02.39 [25336:1584:0120/045002.395:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 20, 2026 08:36:41.19 [25336:1584:0120/083641.189:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+1월 20, 2026 08:42:08.90 [25336:1584:0120/084208.902:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 20, 2026 09:09:12.47 [25336:15948:0120/090912.475:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+1월 20, 2026 09:14:38.90 [25336:1584:0120/091438.906:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 20, 2026 09:22:38.96 [25336:1584:0120/092238.965:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 20, 2026 09:40:06.73 [25336:1584:0120/094006.737:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 20, 2026 11:18:15.51 [25336:1584:0120/111815.518:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+
+1월 22, 2026 09:29:37.45 NEW SESSION
+1월 22, 2026 09:29:37.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 22, 2026 09:29:40.37 [24268:24444:0122/092940.378:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 09:30:03.26 [24268:24444:0122/093003.260:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 09:31:00.66 [24268:24444:0122/093100.664:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 09:32:23.19 [24268:24444:0122/093223.199:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 09:32:37.29 [24268:22500:0122/093237.297:ERROR:services\on_device_model\public\cpp\service_client.cc:36] Unexpected on_device_model service disconnect: Error loading backend.
+1월 22, 2026 09:35:25.25 [24268:24444:0122/093525.256:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 09:41:41.35 [24268:24444:0122/094141.354:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 09:54:22.54 [24268:24444:0122/095422.541:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 22, 2026 10:49:37.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 22, 2026 10:49:40.31 [14492:12428:0122/104940.317:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+1월 22, 2026 10:50:03.01 [14492:12428:0122/105003.016:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+1월 22, 2026 10:51:40.02 [14492:14244:0122/105140.024:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 22, 2026 12:11:13.06 [14492:12428:0122/121113.063:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 22, 2026 12:57:06.51 [14492:12428:0122/125706.508:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+1월 22, 2026 12:57:06.51 [14492:6012:0122/125706.510:ERROR:components\sync\engine\get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+1월 22, 2026 13:36:59.25 [14492:14244:0122/133659.249:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 22, 2026 14:56:23.05 [14492:12428:0122/145623.052:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+1월 22, 2026 16:58:47.65 [14492:12428:0122/165847.637:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2

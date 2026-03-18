@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">		
+			var callback = function(){
+				console.log('콜백함수 호출됨');
+			}
+			function show(cd){
+				cd();//매개변수로 전달되는 함수 코드 호출
+			}
+			///////////// 함수 블럭 끝 /////////////
+			// 실행 코드 //
+			console.log('콜백함수 호출 전');
+			
+			setTimeout(callback, 3000); //함수코드 전달(setTimeout함수호출) 비동기방식
+			//setTimeout함수 첫번째로 전달된 파라미터 코드를 두번쨰로 전달된 시간이 지난 후 실행
+			//callbakc 익명함수코드는 3초 후에 실행
+			//실행해야 할 다음코드가 있다면 3초되기전에 먼저 실행(setTimeout특징)
+			
+			console.log('콜백함수 호출 후');//동기화
+			
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

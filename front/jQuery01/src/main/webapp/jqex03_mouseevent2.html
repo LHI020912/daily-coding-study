@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script src="jquery-3.7.1.min.js"></script>
+		<style>
+			div{
+				width:100px;
+				height:50px;
+				color:white;
+				border-radius:10px;
+				background:red;
+				text-align:center;
+				line-height:50px;
+			}
+		</style>
+		<script type="text/javascript">	
+			$(function(){
+					let color = ['green','blue','red'];//색상배열
+					let idx = 0;//배열위치 초기화
+					
+					$('div').on('click',function(){//클릭 시
+						$(this).css('background',color[idx]);
+						if(idx == color.length)//idx가 색상배열의 길이랑 같으면
+							idx = 0; //다시 0으로 초기화
+						else
+							idx = idx+1;//아니면 다음 색상으로 이동!
+					});
+			});
+		</script>
+	</head>
+	<body>
+	<div>클릭</div>
+	</body>
+</html>

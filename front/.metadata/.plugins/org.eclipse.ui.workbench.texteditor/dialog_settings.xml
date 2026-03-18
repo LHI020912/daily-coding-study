@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="표현식이라"/>
+			<item value="&lt;div id=&apos;companyInfo&apos;&gt;&gt;&lt;img src=&quot;image/footer.png&quot;&gt;&lt;/div&gt;"/>
+			<item value="controlPanel"/>
+			<item value="slidePannel"/>
+			<item value="prevNextButtonBox"/>
+			<item value="max"/>
+			<item value="아이디"/>
+		</list>
+	</section>
+	<section name="org.eclipse.wst.html.ui.internal.preferences.ui.HTMLTemplatePreferencePage$HTMLEditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="104"/>
+		<item key="DIALOG_Y_ORIGIN" value="255"/>
+		<item key="DIALOG_WIDTH" value="1510"/>
+		<item key="DIALOG_HEIGHT" value="884"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

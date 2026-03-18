@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex</title>
+<style>
+	.container{
+		width:500px;
+		height:150px;
+		display:flex;
+		background:#E1F0E5;
+		/*flex-wrap:wrap-reverse; flex item들의 크기가 flex container를 넘길시 처리 방법에 대한 속성*/
+	}
+
+	.item{
+		/*width:100px;
+		word-wrap:break-word; /*width를 넘어가는 컨텐츠를 표현함*/
+		height:40px;
+		background:pink;
+		border:solid 1px black;
+		/*flex-basis:100px;
+		/*flex-basis:auto; flex item의 기본 크기를 설정, auto기본값 -item의 width값을 사용*/
+	}
+	.item{
+		/*flex-grow: 0보다 큰값으로 세팅되면 해당 아이템이 유연한 박스로 변하고 원래크기보다 커지며 빈공간을 메우게 됨*/
+		/*flex-grow: 1; 각 item들이 여백을 균등하게 나눠갖는다. ex.item이3개면 1:1:1 */
+	}
+	/*여백을 4로 나눠서 1:2:1*/
+	.item:nth-child(1) {flex-grow:1;}
+	.item:nth-child(2) {flex-grow:2;}
+	.item:nth-child(3) {flex-grow:1;}
+	
+	/*
+	.container div:first-child{background:#F6EAC2;}
+	.container div:nth-child(2){background:pink;}
+	.container div:nth-child(3){background:#E1F0E5;}
+	*/
+</style>
+</head>
+<body>
+			<div class="container">
+				<div class="item">엔시티127,엔시티 드림 해찬</div>
+				<div class="item">더보이즈 주연</div>
+				<div class="item">엔하이픈 제이</div>
+			</div>
+</body>
+</html>

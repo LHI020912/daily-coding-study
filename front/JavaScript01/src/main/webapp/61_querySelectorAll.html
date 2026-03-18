@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>querySelectorAll()</title>
+		<script type="text/javascript">
+			//선택자가 선택하는 모든 객체 배열형태(node list)로 반환
+			window.onload = function(){
+				let header = document.querySelectAll('h1');//문서내 모든 h1태그의 참조값 반환(집합형)
+				
+				//header변수에 참조값은 node list(배열과 유사) 객체를 참조
+				//h1태그객체의 속성변경(모든h1태그에 대해 적용)
+				for(let i=0;i<header.length;i++){
+					let header_item = header[i];//dom요소 객체 참조값 반환
+					header_item.style.color="orange";
+					header_item.style.background="red";
+					header_item.width='50%';
+					header.item.innerHTML="From JavaScript";
+				}
+				//querySelectAll()반환되는 참조값의 type확인(NodeList-배열과 유사하지만 동적 생성가능한list)
+				//자바스크립트 배열은 아니므로 사용불가능한 배열 기능들이 있음
+				//인덱스 사용가능/forEach사용가능
+				console.log(Object.prototype.toString(header));
+				
+				//forEach사용 :
+				header.forEach((item)=>{
+					item.style.color="white";
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Header</h1>
+		<h1>Header</h1>
+		<h1>Header</h1>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'ReperepointSpecialItalic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialItalicA.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MitmiFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+* {margin:0; padding:0;}
+
+body{background:#e2e2e2;}
+
+#wrap {
+	width:85%;
+	margin: 0 auto;
+	padding-top:20px;
+    font-family: 'ReperepointSpecialItalic';
+}
+
+header {
+	width:100%;
+	height:160px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+nav { display:flex; flex-flow:column;}
+h1 { font-size:4.8rem; }
+button{ margin-bottom:1.5px; }
+.play{ border:none;background:#e2e2e2; }
+button:hover{ font-style:italic; color:#737bc4; }
+
+section{ width:100%; align-items:center; }
+span { display:flex; }
+
+a{
+	position: relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	width:80px;
+	height:60px;
+	margin:7px;
+	border-radius:20px;
+	
+	font-size:2rem;
+	text-decoration:none;
+    font-family:'MitmiFont';
+    
+	color:black;
+	background:#ececec;
+	/*background-image: linear-gradient(to bottom, #fff, gray);*/
+}
+
+a:hover {
+	color:#737bc4;
+	background:#c0c4e4;
+	box-shadow: inset 5px 5px 4px #808080;
+}
+
+a:hover::before{
+	position:absolute;
+	z-index:1;
+	content:"☆ ͡";
+	color:#fff;
+}
+
+footer{
+	display:flex;
+	align-items:flex-end;
+	justify-content:space-between;
+	}
+img{
+	width:160px;
+	height:230px;
+	margin:10px 30px 0 0;
+	}

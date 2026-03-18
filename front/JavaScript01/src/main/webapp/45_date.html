@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Date 객체</title>
+		<script type="text/javascript">
+			var today = new Date();// Date 객체 참조변수 today(사용자함수), 기본값은 시스템(브라우저-클라이언트 컴퓨터)의 날짜 시간정보를 갖게 됨
+			
+			var year = today.getFullYear();//today참조변수 객체의 year속성에 저장된 값을 반환
+			var month = today.getMonth()+1;//month속성에 저장된 값 반환:0부터 반환(0=1월)
+			var date = today.getDate();//date속성에 지정된 값 반환
+			var day; //요일 저장할 변수
+
+			var day; //  요일 저장할 변수
+			
+			// 요일 설정
+			switch(today.getDate()){//요일에 해당하는 상수 반환
+			case 0: day= "일"; break;
+			case 1: day= "월"; break;
+			case 2: day= "화"; break;
+			case 3: day= "수"; break;
+			case 4: day= "목"; break;
+			case 5: day= "금"; break;
+			default: day = "토";
+			}
+			
+			document.write("오늘은 " + year + "년 " + month + "월 " + date + "일 " + day + "요일입니다.");
+			
+			let hours = today.getHours();
+			let minutes = today.getMinutes();
+			let seconds = today.getSeconds();
+			let amPm; //오전 오후 저장 변수
+			
+			if(hours<12)
+				amPm = "오전";
+			else
+				amPm = "오후";
+				if(hours >12)
+					hours = hours-12; //기본를(24시) 12시간으로 셋팅
+				
+			document.write("<br>지금은 " + amPm + hours + "시 " + minutes + "분 " + seconds + "초 입니다.");
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

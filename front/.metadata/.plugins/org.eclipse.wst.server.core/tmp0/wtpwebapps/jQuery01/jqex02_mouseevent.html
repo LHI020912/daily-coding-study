@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			div{
+			 width:100px;
+			 height:50px;
+			 line-height:50px;
+			 text-align:center;
+			 color:white;
+			 background:teal;
+			 border-radius:20px;
+			}
+		</style>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">
+		$(function () {
+		    $('div')
+		        .hover(
+		            function () {
+		                $(this).css('opacity', '0.5');
+		            },
+		            function () {
+		                $(this).css('opacity', '1');
+		            }
+		        );
+		    
+		    $('div').on({
+		    	mouseover:function(){$(this).css('color', 'red');},
+		    	mouseout:function(){$(this).css('color', 'yellow');}
+		    });
+		    
+		    $('div').on('mouseenter',function(){}).on('mouseleave',function(){});
+		    /*    .on('mouseover', function () {
+		            $(this).css('color', 'gray');
+		        })
+		        .on('mouseout', function () {
+		            $(this).css('color', 'black');
+		        });*/
+		});
+		</script>
+
+	</head>
+	<body>
+	<div>버튼</div>
+	</body>
+</html>

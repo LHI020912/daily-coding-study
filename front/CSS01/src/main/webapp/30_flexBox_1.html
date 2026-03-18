@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>플렉서블 박스 - row (왼쪽->오른쪽)</title>
+<style>
+	* {margin:0;padding:0;}
+	.container{
+		margin:5px;
+		width:500px;
+		height:300px;
+		border:solid 1px black;
+	}
+	.container div {
+		width:20%;
+		height:30%;
+	}
+	
+	.container div:first-child{background:#F6EAC2;}
+	.container div:nth-child(2){background:pink;}
+	.container div:nth-child(3){background:#E1F0E5;}
+	 
+	.container{
+		/* display:flex; 가변row수직 - block과 동일 */
+		display:inline-flex; /*column수평 - inline-block과 동일하게 표현됨(화면크기가 모두 표현되도록 크기가 커야한다.)*/
+		flex-direction:row; /* 부모 박스(container) 자식박스(item)의 배치 방향을 결정 (row/column+ -reverse)*/
+		justify-content:space-evenly;/*부모 박스(container) 내 item에 대한 정렬결정(flex-start(기본값):주측의 시작점, flex-end,center,space-between,space-around,space-even)*/
+	}
+</style>
+</head>
+<body>
+			<div class="container">
+				<div></div><div></div><div></div>
+			</div>
+			
+			<div class="container">
+				<div></div><div></div><div></div>
+			</div>			
+</body>
+</html>

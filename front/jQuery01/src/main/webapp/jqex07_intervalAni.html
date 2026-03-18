@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			let idx = 0;//초기화
+			setInterval(function(){
+				$('img').attr('src',`img/${idx}.png`);
+				idx++;//0.1초동안 idx++하는데
+				if (idx>14)//14를 넘기면 다시 0으로 초기화 한다.
+					idx=0;
+			},100);
+		});
+		</script>
+	</head>
+	<body>
+		<img>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!-- 해당 페이지 내 jsp코드는 java 문법을 따르고 나머지 코드는 html임
+	즉, jsp코드 제외 나머지는 클라이언트에게 태그 그대로 전달 -->
+<% String test; %>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+    </head>
+
+    <body>
+	<!-- 현재 페이지는 반사 되어져서 클라이언트로부터 전송된 파라미터 값을
+		그대로 다시 클라이언트에게 전송(반사형)함 -->
+	    <% 
+	    	String key;
+	    	// request java 객체는 현재 페이지 요청시 전달되는 파라미터를 다루기 위한 객체 static과 비슷하게 사용됨
+			request.setCharacterEncoding("UTF-8");
+	    	
+	    	key = request.getParameter("keyword"); // keyword 파라미터 값을 추출
+		%>
+	    <%= key %>
+		
+    </body>
+
+    </html>

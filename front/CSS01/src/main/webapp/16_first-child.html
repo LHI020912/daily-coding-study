@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>first-child 선택자</title>
+	<style type="text/css">
+		#content div {
+			width: 400px;
+			height: 50px;
+			border:solid 1px black;}
+		#content div:first-child{background:yellow;}
+		#content div:first-child + div {background:green;}
+		#content div:first-child + div + div{background:gold;}
+		#content div:first-child(4){background:pink;}
+		/*주의: 서수 선택 시 : 앞뒤로 띄어쓰기 하면 안됨 div:first-child */
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</body>
+</html>
+
+

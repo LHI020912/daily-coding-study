@@ -1,0 +1,49 @@
+package secure.sec01;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Scanner;
+
+public class StudentInjectMain_application {
+
+	public static void main(String[] args) {
+		// DB 연결
+		DBConnect dbcon = new DBConnect();
+		Connection con = dbcon.getConnection();
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		Scanner sc = new Scanner(System.in);
+		// book 테이블에 대한 컬럼명, 컬럼타입, 컬럼에 저장된 데이터를 획득하는 공격문구를 작성하고 공격
+		try {
+			System.out.print("도서 번호 입력: ");
+			String bookNo = sc.nextLine();
+			System.out.println(bookNo);
+			
+			String sql = "select * from book where bookNo = '"+ bookNo +"'";
+			System.out.println(sql);
+			
+			pstmt = con.prepareStatement(sql);
+			//pstmt.setString(1, bookNo);
+			rs = pstmt.executeQuery();
+			
+			// 제목출력
+			System.out.println("------------ 도서 정보 조회 ------------");
+			System.out.println("도서정보   \t 도서 이름");
+			
+			// 필요내용만 출력: 모든 컬럼을 select 하지만 사용자에게 전달한 정보만 출력하는 방식으로 프로그램 개발
+			while(rs.next()) {
+				bookNo = rs.getString(1);
+				String bookName = rs.getString(2);
+				
+				// 한 행씩 출력
+				System.out.format("%-10s\t %-20s\n",bookNo, bookName);
+			
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">	
+		//script코드는 먼저 표기하고 실행되어야 하는 시점에대한 이벤트 연결해서 작업
+			window.onload = function(){//이벤트 핸들러 함수(호출되어짐) 윈도우준비가끝나면 호출해!
+				let box = document.getElementById('box');
+				box.innerHTML="변경"
+			}
+		</script>
+	</head>
+	<body>
+		<div id="box">빡스!</div>
+	</body>
+</html>

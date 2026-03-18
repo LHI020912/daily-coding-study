@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script type="text/javascript">	
+			$(document).ready(function(){
+				//객체추가
+				let output="";
+				for(let i=0;i<256;i++){
+					output +='<div></div>';
+				}
+				document.body.innerHTML = output;
+				
+				//스타일적용
+				$('div').css({//인덱스번호를 여기서 가져와서
+					height:2,
+					background:function(i){//i값은 div참조 선택의 idx가 자동 적용
+						console.log ('rgb('+i+','+i+','+i+')');
+						return 'rgb('+i+','+i+','+i+')';
+					}//덩어리객체를 이렇게 처리 가능함
+				});
+			});
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {margin:0;padding:0;}
+
+#wrap {
+	width:70%;
+	margin:0 auto; /*가로가운데*/
+	padding: 20px;
+}
+
+header {
+	padding: 20px;
+	border:1px solid green;
+	background: #8cd98c;
+}
+
+nav > ul{
+	width:20%;
+	display:flex;
+	list-style:none;
+	justify-content:space-around;
+}
+
+a {color:#206020;}
+
+#content {
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+
+section {
+	width:60%;
+	padding:2%;
+	margin: 20px 0 20px;
+	border:solid 1px gray;
+}
+
+section article {padding:2% 4% 2% 4%;}
+
+article div {
+	width:90%;
+	margin:0 auto;
+	margin-left:5%;
+	margin-top:10px;
+	background:yellow;
+}
+
+article table {
+	width:90%;
+	margin:0 auto;
+	margin-left:5%;
+	margin-top:10px;
+	text-align:center;
+}
+
+#t01 tr:nth-child(even) {background:#e6f0ff;} /*짝수나 홀수*/
+#t01 tr:nth-child(odd) {background:#99c2ff;} /*짝수나 홀수*/
+#t01 th {background:#0000ff; color:white;}
+
+aside {
+	width:25%;
+	padding:2%;
+	margin-top:20px;
+	height:fit-content;
+	background:#d9d9d9;
+	word-wrap:break-word;
+	border:solid 1px gray;
+}
+
+footer {padding:20px; border:1px solid green;}

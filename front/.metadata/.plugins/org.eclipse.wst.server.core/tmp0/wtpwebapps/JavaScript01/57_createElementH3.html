@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>createElement('h3') 예제</title>
+        <script type="text/javascript">
+		//body태그 내부에는 동적으로 h3태그생성
+		//body태그는 load되어 있어야 h3태그 동적 추가 가능
+		window.onload= function(){
+			//요소(태그)객체 생성
+			//1.필요 객체 생성
+			let h3_var = document.createElement('h3');//객체 참조값 반환
+			let text_var = document.createElement("출력할 텍스타 : 홍길동, 동적 생성 문자열");
+			//각 객체 독립적으로 생성됨
+			
+			//2.생성된 객체들 연결(포함)하는 작업
+			//태그객체에 텍스트 객체를 appendChild()자식 요소로 포함
+			h3_var.appendChild(text_var);
+			
+			//3.완성된 요소를 body에 추가
+			document.body.appendChild(h3_var);
+		}
+		
+		window.onload = function() {
+			//1단계: 요소 노드 생성
+			// 요소 노드(<img> 태그) 생성하고 변수에 지정 
+			let img = document.createElement('img');
+			//속성 설정
+			//dom객체의 하위객체가 됨. 그래서 dom사용가능
+			img.src="image/bird.jpg";
+			img.width=250;
+			img.height=180;
+			img.title="아름답고 미운 새~ 아미새~~~!;;";
+
+			//2단계 : 문서에 출력
+			document.body.appedChild(img);
+    	};
+		</script>
+	</head>
+	
+	<body>
+		<!-- 초월을 체험하시오... -->
+	</body>
+</html>

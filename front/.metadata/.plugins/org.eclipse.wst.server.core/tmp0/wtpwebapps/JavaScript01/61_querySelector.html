@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>querySelector()</title>
+		<script type="text/javascript">
+			//문서 내 첫번째 h1태그 참조값 반환받아서 속성 변경
+			//태그 준비 된 후 작업진행
+			window.onload = function(){
+				//문서내 객체를 선택 :querySelector(선택자)
+				let header = document.querySelector('h1');
+				//쿼리샐랙터는 h1태그중 첫번째 태그 요소 객체의 참조값 반환
+				
+				//문서내 객체를 참조변수 활용 조작
+				//속성 변경
+				header.style.color="orange";
+				header.style.background="red";
+				header.innerHTML="From JavaScript";
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Header</h1>
+		<h1>Header</h1>
+		<h1>Header</h1>
+	</body>
+</html>

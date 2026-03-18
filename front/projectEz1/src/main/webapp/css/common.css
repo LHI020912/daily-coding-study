@@ -1,0 +1,41 @@
+/*common.css 모든 페이지에 공통적으로 적용될 css 처리*/
+@charset "UTF-8";
+
+*{margin:0 auto;}
+
+#wrap{
+	width:1280px;
+	position:relative;
+	text-align:center;
+	background:#eeeeee;
+}
+/* 모든 img 태그의 테두리 없음 */
+img {border:0; margin:0;}
+
+/********** FOOTER ************/
+#footerBox div{
+	margin:0;
+	padding:20px;
+	margin-top:10px;
+	background:#777;
+	border:solid 1px #999;
+}
+/********** BOTTOM MENU ************/
+#bottomMenuBox{
+	height:30px;
+	line-height:30px;
+}
+#bottomMenuBox li{
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+	padding:5px;
+}
+#bottomMenuBox li a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/********** MOVE TOP ************/
+#moveToTopBox:hover{opacity:0.8px;cursor:pointer;}

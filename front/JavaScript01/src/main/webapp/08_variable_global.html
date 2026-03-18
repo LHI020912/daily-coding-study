@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>전역변수</title>
+		<script type="text/javascript">
+			var x=5, y=10; // x,y변수 명시적 선언, 전역변수임
+			total=0; //명시적 선언없이 사용
+			
+			function f1() {
+				//함수 내부에서 변수 사용, 전역변수 사용
+				x = x + y;
+				document.write(x + "<br>");
+			}
+		
+			function f2() {
+				//함수 내부에서 변수 사용
+				total = x + y;
+				document.write(total + "<br>");
+			}
+			
+			// 함수 사용 : 함수 호출
+			f1();
+			f2();
+			
+			document.write(total  + "<br>"); 
+			
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

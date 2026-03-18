@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">	
+		let str = "문자열입니다."; //속성메소드들을 가지고 있음
+		let str1 = new String("문자열 입니다.")//참조객체+문자열객체
+		
+		//대부분의 기능들이 객체로 구성(속성.메소드)
+		str.length; //문자열의 길이의미
+		//str.length=8;//문자열은 부분 변경이 불가능| 직접변경이 아닌 간접변경을 위한 것이 속성
+		//배열은 부분 변경이 가능
+		
+		str.charAt(0);
+		str1.charAt(0);
+
+		srt.indexOf("문자열");//인덱스 찾기 = 0을반환
+		srt.indexOf("문자열1");//없다는 의미로 -1반환
+		
+		// 입력
+		let num = prompt("값1 입력");
+		let num2 = prompt("값2 입력");
+		
+		//숫자인지 판단
+		let strNum = x =>{//변수인 익명함수구성 매개변수x
+			let isNum = true;//내부에서 사용할 지역변수
+			for(let i = 0; x.length; i++){
+				if(!('0'<=x.charAt(i)&&)){
+				isNum=false;//숫자일시
+				break;
+				}
+			}
+			return isNum;
+		}
+		
+		if(strNum(num) && strNum(num2)){//왼오에대한 논리연산 함수호출 결과 넣어(return)
+			document.write(Number(num)+Number(num2));//수치형으로 변경후 더하기
+		}else{
+			document.write(num+num2);//문자열로 결합
+		}
+		
+		//2번
+		
+		document.write("<hr>");
+		let str3 = prompt("문장을 입력");
+		let idx = str3.indexOf("apple");//문장안에 단어검색
+		
+		if (idx==-1){//없다는 의미(-1반환) 맞으면 ~
+			document.write("문자열을 포함하고있지 않습니다.");
+		}else{
+			document.write("문자열은 idx: "+idx+"부터 시작합니다");
+		}
+		
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

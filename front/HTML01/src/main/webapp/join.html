@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<style>
+</style>
+</head>
+<body>
+<header>
+	<h1 align="center">회원가입</h1>
+	<br><br><hr>
+</header>
+<form method="get" action="newMember.jsp">
+	<table>
+		<tr><td>성명</td> <td><input type="text" id="name"></td></tr>
+		<tr><td>아이디</td> <td><input type="text" id="id" maxlength="10">   <button> ID 중복체크</button>   (영문자+숫자+특수문자: 6~10자)</td></tr>
+		<tr><td>비밀번호</td> <td><input type="password" id="passwd" maxlength="20">  (영문자+숫자+특수문자: 10~20자)</td></tr>
+		<tr><td>비밀번호 확인</td> <td><input type="password" id="passwdcheck"></td></tr>
+		<tr><td>생년월일</td>
+		<td><input type="number" id="year"> 년 
+		<select id="month">
+			<option selected>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+		</select> 월  
+		<select id="day">
+			<option selected>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+		</select> 일  
+		<label><input type="radio" value="양력" checked> 양력 </label>
+		<label><input type="radio" value="음력"> 음력 </label></td></tr>
+		<tr><td>전화번호</td>
+		<td><select name="tell"><option value="02"selected>02</option><option value="">061</option>
+		</select> - <input type="text" maxlength="4" size="8"> - <input type="text" maxlength="4"size="8"></td></tr>
+		<tr><td>휴대폰번호</td>
+		<td><select name="phone_number">
+			<option>011</option>
+			<option selected>010</option>
+		</select> - <input type="text" maxlength="4"size="8"> - <input type="text" maxlength="4"size="8"></td></tr>
+		<tr><td rowspan="3">주소</td>
+		<td><input type="text" id="address" required>   <button>우편번호 찾기</button></td></tr>
+		<tr><td><input type="text" size="35"></td></tr>
+		<tr><td><input type="text" size="35"> 상세 주소 입력</td></tr>
+		<tr><td>성별</td>
+		<td><label><input type="radio" value="남" checked> 남</label>
+		<label><input type="radio" value="여"> 여 </label></td></tr>
+		<tr><td>직업</td>
+		<td><select>
+			<option>운동선수</option>
+			<option selected>프로그래머</option>
+		</select></td></tr>
+		<tr><td>이메일</td>
+		<td><input type="text" value="이메일" size="8"> @ <select><option>hamail.net</option><option selected>naver.com</select></td></tr>
+		<tr><td>이메일 수신 여부</td>
+		<td><label><input type="radio" value="예" checked> 예 </label>
+		<label><input type="radio" value="아니오"> 아니오 </label></td></tr>
+		<tr><td>관심분야</td>
+		<td><label><input type="checkbox" value="프론트엔드" checked> 프론트엔드 </label>
+		<label><input type="checkbox" value="백엔드"> 백엔드 </label>
+		<label><input type="checkbox" value="풀스택"> 풀스택 </label>
+		<label><input type="checkbox" value="자바 프로그래밍"> 자바 프로그래밍 </label></td></tr>
+	</table>
+	<input type="submit" value="회원가입"> <input type="reset" value="취소">
+</form>
+</body>
+</html>

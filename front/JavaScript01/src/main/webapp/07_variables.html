@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>변수</title>
+		<script type="text/javascript">
+			//변수: 프로그램 실행중 사용할 data를 저장할 임시메모리 공간(식별자를 갖는다.)
+			//명시적 변수 선언
+			var num=10;
+			let pi=3.14;
+			let name;
+			name="박종성";
+			let ch = 'a';
+			var num="숫자"; // 중복선언 가능 (var로 선언시에만 중복선언 가능)
+			
+			// 명시적 선언 없이 사용 가능
+			address = "전남 순천시";
+			nation = '대한민국';
+			
+			// 오른값 왼값에 넣어!
+			let test = address;
+			
+			// 변수에 저장된 값 사용 : 변수명
+			document.write(num); // 변수 값만 출력
+			
+			// 문자열과 변수, 태그 연결해서 출력
+			document.write("<br>");
+			document.write("num : " + num + "<br>");
+			document.write("pi : " + pi + "<br>");
+			document.write("ch : " + ch + "<br>");
+			document.write("name : " + name + "<br>");
+			document.write("address : " + address + "<br>");
+			document.write("nation : " + nation);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

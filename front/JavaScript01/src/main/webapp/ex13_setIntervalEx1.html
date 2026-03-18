@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">	
+		alert("이미지 10개 출력");
+		
+		let count = 0;
+		let timer;
+		
+		const start = () => timer = setInterval(showImg,1000);
+		
+		function showImg() {
+			count++;
+			
+		    if (count % 2 == 1)
+		      img = "<img src='image/apple.png'>";
+		    else
+		      img = "<img src='image/bomb.png'>";
+			
+			document.body.innerHTML += img;
+			
+			if (count==10)
+				clearInterval(timer);
+		}
+		
+		start();
+		
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

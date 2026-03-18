@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script src="jquery-3.7.1.min.js"></script>
+		<style>
+			div{
+				width:100px;
+				height:50px;
+				color:white;
+				border-radius:10px;
+				background:teal;
+				text-align:center;
+				line-height:50px;
+			}
+		</style>
+		<script type="text/javascript">	
+		$(function(){
+			$('div').on('click',function(){
+				//버튼 두 개 생기기
+				$(this).after("<p><input type='button' id='btn1' value='새버튼1'</p>"+
+								  "<p><input type='button' id='btn2' value='새버튼2'</p>");
+			});
+			
+			$(document)//버튼 1번: mouseenter(초록) mouseleave(노랑)
+				.on('mouseenter mouseleave','#btn1', function (e) {
+		            if(e.type == 'mouseenter')
+		                $(this).css('background-color','green');
+		            else if (e.type == 'mouseleave')
+		                $(this).css('background-color','yellow');
+				});
+			$(document)//버튼 2번: 클릭하면 새창에서 임의 사이트 연결
+				.on('click',"#btn2",function(){
+					window.open('https://www.example.com', '_blank');
+				});
+		});
+		</script>
+	</head>
+	<body>
+	<div>버튼</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			table{
+				width:100px;
+				text-align: center;
+				border: 1px solid black;
+			}
+			th{background:yellow;border: 1px solid black;}
+			td{border: 1px solid black;}
+		</style>
+		<script type="text/javascript">	
+		// while
+		i = 1;
+		sum = 0;
+
+		document.write("<table>");
+		document.write("<tr><th>i</th><th>sum</th></tr>");
+		
+		while(i<=10){
+			sum += i;
+			document.write("<tr><td>"+i+"</td><td>"+sum+"</td></tr>");
+			i++;
+		}
+		document.write("</table><br><hr>");
+		
+		// for
+		var sum1 = 0;
+		
+		document.write("<table border=\"1\">");
+		document.write("<tr><th>i</th><th>sum</th></tr>");
+		
+		for(var i=1; i<=10; i++){
+			sum1 += i;
+			document.write("<tr><td>"+i+"</td><td>"+sum1+"</td></tr>");
+		}
+		document.write("</table>");
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

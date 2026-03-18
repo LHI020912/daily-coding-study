@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>★ ˙ ̟  𓈒  ୭ৎ</title>
+<style>
+@font-face {
+    font-family: 'Cafe24MeongiWhite';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Meongi-W-v1.0.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'YFavorite';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/YOnepickTTF-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+	body{
+		margin:20px;
+		height: 95vh;
+    	font-family: 'Cafe24MeongiWhite';
+		background-image: linear-gradient(to bottom, #fff, #feeff4);
+	}
+	header{
+		display:flex;
+		justify-content:space-between;
+		align-items: center;
+	}
+	#play{
+		width: 80px;
+		height: 30px;
+		border: none;
+		margin-left:5px;
+		border-radius: 30px;
+		background-color:#feeff4;
+		color:#fa7991;
+		font-size: 25px;
+    	font-family: 'Cafe24MeongiWhite';
+	}
+	#play:hover{
+		font-style:italic;
+		border: solid 1px #fff;
+		box-shadow:3px 3px 3px #ead0d6;
+	}
+	#html{
+		width: 180px;
+		height: 40px;
+		border: none;
+		border-radius: 10px;
+		background-color:#fbd6e5;
+		color:#fa7991;
+		font-size: 25px;
+    	font-family:'Cafe24MeongiWhite';
+	}
+	#html:hover{
+		color:#fff;
+		font-weight: bold;
+		border: solid 1px #fff;
+		box-shadow:3px 3px 3px #ead0d6;
+	}
+	.container {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	h1{
+		color:#fa7991;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		width: 350px;
+		height:80px;
+		margin:30px;
+		cursor:pointer;
+    	font-family: 'YFavorite';
+    	border: 1.5px solid #fff;
+		border-radius: 0px 10px 0px 20px;
+		box-shadow: 5px 5px 10px #ead0d6;
+		background-image: linear-gradient(to bottom, #fff, #feeff4);
+	}
+	span{
+		display:flex;
+	}
+	a{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		width: 73px;
+		height: 46px;
+		margin: 7px;
+		background: #fbd6e5;
+		border-radius: 20px;
+		color: #fff;
+		font-size:30px;
+		text-decoration: none;
+	}
+	a:hover{
+		font-weight:bold;
+		box-shadow:3px 3px 2px #fbb0c1;
+	}
+/*색상팔레트
+#FFF5F9
+#fa7991
+#fbb0c1
+#fbd6e5
+#feeff4*/
+</style>
+</head>
+<body>
+	<header>
+		<audio id="player" loop src="media/music.mp3"></audio>
+		<div>
+		    <button id="play" onclick="document.getElementById('player').play()">Play</button>
+		    <button id="play" onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute</button>
+		</div>
+		<button id="html" onclick="window.location.href='/HTML01/HelloWorld.html'">GO HTML!</button>
+	</header>
+	<div class="container">
+			<h1 onclick="window.location.reload()">  ♱˚₊‧ CSS 메인 ♡ 𓏼˚̣̣̣  </h1>
+		<div>
+			<span>
+				<a href="01_tagSelector.html">01</a>
+				<a href="02_classSelector.html">02</a>
+				<a href="03_classSelector2.html">03</a>
+				<a href="04_idSelector.html">04</a>
+			</span>
+			<span>
+				<a href="05_attributeBasic.html">05</a>
+				<a href="06_hyperlink.html">06</a>
+				<a href="07_stateSelector.html">07</a>
+				<a href="08_inlineBlock.html">08</a>
+			</span>
+			<span>
+				<a href="09_0_pseudo_element_selector.html">09</a>
+				<a href="10_list.html">10</a>
+				<a href="11_position.html">11</a>
+				<a href="12_fixed.html">12</a>
+			</span>
+			<span>
+				<a href="13_z-index.html">13</a>
+				<a href="14_childSelector.html">14</a>
+				<a href="15_descSelector.html">15</a>
+				<a href="16_first-child.html">16</a>
+			</span>
+			<span>
+				<a href="17_nth-child.html">17</a>
+				<a href="18_dynamicSelector.html">18</a>
+				<a href="19_overflow.html">19</a>
+				<a href="20_visibility.html">20</a>
+			</span>
+			<span>
+				<a href="21_boxShadow.html">21</a>
+				<a href="22_varMargin1.html">22</a>
+				<a href="23_varFont.html">23</a>
+				<a href="24_varMargin2.html">24</a>
+			</span>
+			<span>
+				<a href="25_video.html">25</a>
+				<a href="26_mediaQuery1.html">26</a>
+				<a href="27_mediaQuery2.html">27</a>
+				<a href="28_mediaQuery3.html">28</a>
+			</span>
+			<span>
+				<a href="29_mediaQuery4.html">29</a>
+				<a href="30_flexBox_1.html">30</a>
+				<a href="31_flex_box2.html">31</a>
+				<a href="32_flex_box3.html">32</a>
+			</span> 
+			<span>
+				<a href="33_flex.html">test</a>
+				<a href="htmlCssEx.html">real</a>
+				<a href="css_ex2.html">test</a>
+				<a href="cssEx.html">last</a>
+			</span>
+		</div>
+		<pre style="float:right">
+	 		ෆ*｡◌  ⊹🕊
+	  				    ╱\ /╲♡ ╱\ /╲
+	 	meow~ 			=( • ⩊  •) ( • ⩊  • )=</pre>
+	</div>
+</body>
+</html>

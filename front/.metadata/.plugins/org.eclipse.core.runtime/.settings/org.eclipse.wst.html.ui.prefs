@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+newFileTemplateName=New HTML (JS)
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="html_new" deleted\="false" description\="New HTML (JS)" enabled\="true" name\="New HTML (JS)">&lt;\!DOCTYPE html&gt;&\#13;\r\n&lt;html&gt;&\#13;\r\n\t&lt;head&gt;&\#13;\r\n\t\t&lt;meta charset\="UTF-8"&gt;&\#13;\r\n\t\t&lt;title&gt;Insert title here&lt;/title&gt;&\#13;\r\n\t\t&lt;script src\="jquery-3.7.1.min.js"&gt;&lt;/script&gt;&\#13;\r\n\t\t&lt;script type\="text/javascript"&gt;\t&\#13;\r\n\t\t&\#13;\r\n\t\t&lt;/script&gt;&\#13;\r\n\t&lt;/head&gt;&\#13;\r\n\t&lt;body&gt;&\#13;\r\n\t&\#13;\r\n\t&lt;/body&gt;&\#13;\r\n&lt;/html&gt;</template></templates>

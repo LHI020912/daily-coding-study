@@ -1,0 +1,21 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+	// 사용자가 input 태그에 입력한 특정영역에 표현하는 함수
+	function tetIt(){
+		let input = document.getElementById("input-test").value;
+		let testInnerHTML = document.getElementById("test-innerHTML");
+		let testHTML = document.getElementById("test-html");
+		testInnerHTML.innerHTML = input;
+		$(testHTML).html(input);
+	}
+</script>
+<head>this is a test</head>
+<body>  
+    <input id="input-test" type="text" name="foo" />
+    <input type="button" onClick="testIt();" value="test!"/>
+    <div id="test-html">
+    </div>
+    <div id="test-innerHTML">
+    </div>
+</body>

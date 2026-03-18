@@ -1,0 +1,30 @@
+/* product.css 
+
+.   　 ＿＿＿＿＿
+     ／＼＿＿＿＿＼
+	 |￣＼∩・ω・) ＼
+ 　  ｜￣￣∪￣  ｜
+*/
+@charset "UTF-8";
+
+#productBox{
+	width:80%;
+	height:700px;
+	padding:40px;
+	padding-top:20px;
+	background:white;
+}
+#productBox .product{
+	width:100%;
+	margin-top:20px;
+	display:inline-block;
+}
+#productBox .product div{
+	width:303px;
+	height:303px;
+	margin:10px;
+	display:inline-block;
+	border:solid 1px #ccc;
+}
+#productBox .product div img{width:100%;height:100%;}
+#productBox .product div:hover{opacity:0.7;border:solid 1px red;}
