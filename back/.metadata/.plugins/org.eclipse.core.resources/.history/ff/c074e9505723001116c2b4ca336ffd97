@@ -1,0 +1,38 @@
+package sec03;
+
+import java.io.IOException;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/loginRes")
+public class LoginServletResponse extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public void init(ServletConfig config) throws ServletException {
+		System.out.println("init");
+	}
+
+
+	public void destroy() {
+		System.out.println("destroy");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// (1) 클라이언트가 전송한 파라미터 추출 후 처리
+		request.setCharacterEncoding("utf-8");
+
+		String userId = request.getParameter("user_id");
+		String userPw = request.getParameter("user_pw");
+		
+		// (2) 클라이언트로 전송 : 응답처리
+		// HttpServletResponse.setContentType() 전송되는 데이터의 종류와 결합방식을 설정
+		response.setContentType("text/html;charset=utf-8");
+		// 
+	}
+
+}

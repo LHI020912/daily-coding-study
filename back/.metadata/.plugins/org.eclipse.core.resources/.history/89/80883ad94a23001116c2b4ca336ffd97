@@ -1,0 +1,41 @@
+package sec02;
+
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/bookInsert")
+public class bookServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    public bookServlet() {
+        super();
+    }
+
+	public void init(ServletConfig config) throws ServletException {
+		System.out.println("init 메서드 호출");
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setCharacterEncoding("utf-8");
+		String b_num = request.getParameter("b_num");
+		String b_name = request.getParameter("b_name");
+		String b_author = request.getParameter("b_author");
+		String b_price = request.getParameter("b_price");
+		String b_date = request.getParameter("b_date");
+		String b_stack = request.getParameter("b_stack");
+		String p_num = request.getParameter("p_num");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.setCharacterEncoding("utf-8");
+		doGet(request, response);
+		response.getWriter().append(request.getContextPath());
+	}
+
+}
