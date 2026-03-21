@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>파라미터 연습3</title>
+<script type="jquery-3.7.1.min.js">
+	// 잡자 스크립트로 서블릿에 요청
+	// jQuery 사용
+</script>
+</head>
+<body>
+	<form name="formLogin" id="formLogin">
+		아이디: <input type="text" id="user_id" name="user_id">
+		비밀번호: <input type="password" id="user_pw" name="user_pw">
+		<input type="button" value="로그인"><input type="reset" value="초기화">
+	</form>
+</body>
+</html>

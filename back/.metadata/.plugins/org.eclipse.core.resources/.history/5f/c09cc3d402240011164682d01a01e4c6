@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>파라미터 연습3</title>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+	<form name="fromLogin" id="" method="get" action="login4">
+		아이디: <input type="text" id="user_id" name="user_id">
+		비밀번호: <input type="password" id="user_pw" name="user_pw">
+		<input type="submit" value="로그인"><input type="reset" value="초기화">
+	</form>
+</body>
+</html>
