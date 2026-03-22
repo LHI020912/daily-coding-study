@@ -13,7 +13,7 @@ public class MemberDAO {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			
-			String url ="jdbc:oracle:thin@localhost:1521:xe";
+			String url ="jdbc:oracle:thin:@localhost:1521:xe";
 			String user ="C##SQL_USER";
 			String pwd ="1234";
 			con = DriverManager.getConnection(url,user,pwd);
@@ -63,8 +63,8 @@ public class MemberDAO {
 		}finally {
 			try {
 				rs.close();
-				con.close();
 				pstmt.close();
+				con.close();
 			}catch(Exception e) {
 				e.printStackTrace();
 			}
