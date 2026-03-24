@@ -18,7 +18,6 @@
 		<input type="checkbox" name=interests value="빅데이터">빅데이터
 		<input type="checkbox" name=interests value="자바">자바<br><br>
 		
-		
 		<input type="submit" value="확인">
 	</form>
 </body>
