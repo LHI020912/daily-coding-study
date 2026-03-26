@@ -27,6 +27,11 @@
 	<fmt:formatDate value="${now}" type="time" timeStyle="full"/><br>
 	<fmt:formatDate value="${now}" type="time" timeStyle="short"/><br>
 	<fmt:formatDate value="${now}" type="both" dateStyle="full" timeStyle="full"/><br>
+	<fmt:formatDate value="${now}" pattern="YYYY-MM-dd:hh:mm:ss"/><br>
+	<fmt:formatDate value="${now}" pattern="YYYY-MM-dd"/><br>
+	<fmt:timeZone value="America/New_York">
+		<fmt:formatDate value="${now}" type="both" dateStyle="full" timeStyle="full"/>
+	</fmt:timeZone>
 </body>
 </html>
 
